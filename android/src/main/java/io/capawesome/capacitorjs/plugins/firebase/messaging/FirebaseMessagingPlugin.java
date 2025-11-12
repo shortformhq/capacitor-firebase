@@ -27,8 +27,8 @@ import org.json.JSONObject;
 @CapacitorPlugin(
     name = "FirebaseMessaging",
     permissions = @Permission(strings = {
-        Manifest.permission.POST_NOTIFICATIONS }, 
-        alias = FirebaseMessagingPlugin.PUSH_NOTIFICATIONS), 
+        Manifest.permission.POST_NOTIFICATIONS },
+        alias = FirebaseMessagingPlugin.PUSH_NOTIFICATIONS)
 )
 public class FirebaseMessagingPlugin extends Plugin {
 
